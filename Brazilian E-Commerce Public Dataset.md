@@ -73,31 +73,3 @@ After a customer purchases the product from Olist Store a seller gets notified t
 1. Identify top selling products
    To identify top selling products, order_items and products_cleaned are joined to show english translation for product categories. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
