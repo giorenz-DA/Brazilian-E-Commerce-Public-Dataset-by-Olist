@@ -71,5 +71,14 @@ After a customer purchases the product from Olist Store a seller gets notified t
 ## Analysis
 
 1. Identify top selling products
-   To identify top selling products, order_items and products_cleaned are joined to show english translation for product categories. 
+   To identify top selling products, order_items and products_cleaned are joined to show english translation for product categories.
 
+
+
+   The most profitable products are from health and beauty products which amounts to ~ R$1,26M. In this case, even if the most profitable purchases are from health and beauty products, the mostly sold products are from bed,bath, and table product category. It is also notable that the 2nd most profitable are the watches and gifts products as even if it only sold 5,991 in quantity, the total revenue for these products is R$1,21M. 
+   
+   This means customers using Olist prefers ordering bed and bath needs and willing to purchase watches and gifts even if they are quite expensive.
+
+
+1. Analyze monthly revenue trends
+   
