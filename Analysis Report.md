@@ -70,8 +70,8 @@ Dataset is downloaded from Kaggle from this link: https://www.kaggle.com/dataset
 
 ## Analysis
 
-1. Identify top selling products
-   To identify top selling products, order_items and products_cleaned are joined to show english translation for product categories.
+1. Identify top selling products.  
+   To identify top selling products, order_items and products_cleaned are joined to show english translation for product categories.  
 
 
 
@@ -81,7 +81,7 @@ Dataset is downloaded from Kaggle from this link: https://www.kaggle.com/dataset
 
 
 
-2. Analyze monthly revenue trends
+2. Analyze monthly revenue trends.  
 
    
    The month with the highest sales is during May and followed by August. During May, Mother's Day is celebrated in Brazil and this could be a driving factor since the mostly sold products all year round are bed, bath and table products seconded by health and beauty products which are commonly gifted to mothers.
@@ -94,13 +94,13 @@ The sudden dip in September could be explained as the "recuperating" period of c
 
 
 
-4. Determine high-value customers
+4. Determine high-value customers.  
    
 
    New customers greatly outnumber repeat customers with Repeat Customer Conversion rate only at 3.12%. Most of the revenue also came from new customers. 
 
 
-5. Evaluate regional sales performance
+5. Evaluate regional sales performance.  
 
 
 
@@ -109,7 +109,7 @@ The sudden dip in September could be explained as the "recuperating" period of c
    Campinas shows a little potential as it is only a municipality in Brazil and it still got a higher order count than Salvador even if Salvador has greater population. Also though Campinas generated lower revenue than Porto Alegre, Campinas has a higher order count.
    
 
-
+All visualizations can be acceess on Tableau Public from this link: https://public.tableau.com/app/profile/gio.tamayo6569/viz/BrazilianE-commerce_17734758625520/Dashboard1
 
 ## Key Insights
 
