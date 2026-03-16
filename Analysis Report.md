@@ -70,6 +70,10 @@ Dataset is downloaded from Kaggle from this link: https://www.kaggle.com/dataset
 
 ## Analysis
 
+> [!IMPORTANT]
+> Github is currently encountering issues in uploading images on repositories.  
+> All visualizations can be accessed from this [link](https://public.tableau.com/app/profile/gio.tamayo6569/viz/BrazilianE-commerce_17734758625520/Dashboard1)
+
 1. Identify top selling products.  
    To identify top selling products, order_items and products_cleaned are joined to show english translation for product categories.  
 
