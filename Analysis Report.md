@@ -70,14 +70,12 @@ Dataset is downloaded from Kaggle from this link: https://www.kaggle.com/dataset
 
 ## Analysis
 
-> [!IMPORTANT]
-> Github is currently encountering issues in uploading images on repositories.  
-> All visualizations can be accessed from this [link](https://public.tableau.com/app/profile/gio.tamayo6569/viz/BrazilianE-commerce_17734758625520/Dashboard1)
-
 1. Identify top selling products.  
    To identify top selling products, order_items and products_cleaned are joined to show english translation for product categories.  
 
-
+ <p align="center">
+    <img width="1230" height="565" alt="image" src="https://github.com/user-attachments/assets/45de4758-7781-4744-835c-40b5fcd42904" />
+</p>
 
    The most profitable products are from health and beauty products which amounts to ~ R$1,26M. In this case, even if the most profitable purchases are from health and beauty products, the mostly sold products are from bed,bath, and table product category. It is also notable that the 2nd most profitable are the watches and gifts products as even if it only sold 5,991 in quantity, the total revenue for these products is R$1,21M. 
 
@@ -86,9 +84,14 @@ Dataset is downloaded from Kaggle from this link: https://www.kaggle.com/dataset
 
 
 2. Analyze monthly revenue trends.  
-
+   Monthly Revenue trend is acquired by considering when the customer placed the order. So those orders that are canceled and unaivalable are NOT considered.
+<p align="center">
+<img width="1232" height="527" alt="image" src="https://github.com/user-attachments/assets/e9aea312-acaa-47a9-83d0-4dbe11b2c8f0" />
+</p>
    
    The month with the highest sales is during May and followed by August. During May, Mother's Day is celebrated in Brazil and this could be a driving factor since the mostly sold products all year round are bed, bath and table products seconded by health and beauty products which are commonly gifted to mothers.
+
+
    
 Upon further research Brazil celebrates Dia dos Namorados on June 12, their Valentines Day. Retailers often start promotional campaigns weeks in advance, sometimes beginning in late May, and could extend momentum from the Mother's Day campaigns.  
 
@@ -98,14 +101,22 @@ The sudden dip in September could be explained as the "recuperating" period of c
 
 
 
-4. Determine high-value customers.  
-   
+3. Determine high-value customers.  
+    Since the customer table does not contain any personal information and only customer_ids, customer_unique_ids are counted and those that have customer_unique_id appear only once are considered as New Customers while those with customer_unique_id appear more than once is considered as repeat customers.
+
+<p align="center">
+<img width="1230" height="559" alt="image" src="https://github.com/user-attachments/assets/8850b469-7261-4920-809b-cca32ae020aa" />
+</p>
 
    New customers greatly outnumber repeat customers with Repeat Customer Conversion rate only at 3.12%. Most of the revenue also came from new customers. 
 
 
-5. Evaluate regional sales performance.  
+4. Evaluate regional revenue performance.  
+   By joining the customers, orders, order_items table and aggregation, we get the total revenue and order count by each city to see which city generated the most revenue and most products sold.
 
+<p align="center">
+<img width="1226" height="521" alt="image" src="https://github.com/user-attachments/assets/97e9db4a-0ccb-4eba-bfa1-e22499786c14" />
+</p>
 
 
    The city which generated the most revenue is Sao Paulo where 14% of the total revenue is generated . Since Sao Paulo is the largest city in Brazil, it also has the highest order count by customers. As seen on the visualization, the revenue generated is directly proportional to the order count on every cities.
@@ -114,6 +125,9 @@ The sudden dip in September could be explained as the "recuperating" period of c
    
 
 All visualizations can be acceess on Tableau Public from this link: https://public.tableau.com/app/profile/gio.tamayo6569/viz/BrazilianE-commerce_17734758625520/Dashboard1
+<p align="center">
+<img width="1544" height="867" alt="image" src="https://github.com/user-attachments/assets/089e7978-a2f2-4914-948d-7308a90f09d7" />
+</p>
 
 ## Key Insights
 
@@ -128,5 +142,5 @@ All visualizations can be acceess on Tableau Public from this link: https://publ
 
 1. Creating product-focused marketing campaigns before and during retail holidays.
 2. Increase marketing campaigns targeted to specific municipalities like a sale during their festivals or any other municipal holiday/event. 
-3. Implementing a Tier-based membership where a customer's meembership will upgrade upon completing a specific number of orders and have vouchers that are tier-locked to increase Repeat Customer Conversion Rate.
+3. Implementing a Tier-based membership where a customer's membership will upgrade upon completing a specific number of orders and have vouchers that are tier-locked to increase Repeat Customer Conversion Rate.
 4. Introduce payday sale where you can get discounts when you purchase on usual pay days like first of the month and 15th of every month to normalize revenue every month. 
