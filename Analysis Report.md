@@ -138,7 +138,7 @@ All visualizations can be acceess on Tableau Public from this link: https://publ
 
 
 
-## Recommeendations
+## Recommendations
 
 1. Creating product-focused marketing campaigns before and during retail holidays.
 2. Increase marketing campaigns targeted to specific municipalities like a sale during their festivals or any other municipal holiday/event. 
